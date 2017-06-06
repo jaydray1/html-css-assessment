@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+a {
+  color: white;
+}
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+body {
+  background: url('img/main-bg.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.top-nav {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 40px;
+  /*border: 2px solid red;*/
+}
+
+.big-main-sub {
+  position: absolute;
+  top: 18rem;
+  text-align: center;
+  height: 25vh;
+  width: 100%;
+  /*border: 2px solid red;*/
+  font-family: 'Bungee Shade', cursive;
+  color: white;
+  font-size: 9em;
+}
+
+.your-sub {
+  height: 18vh;
+  width: 100%;
+  /*border: 2px solid red;*/
+  font-size: 50px;
+}
+
+.fa-bars {
+  color: white;
+  }
+  
+  .icon {
+    display: none;
+  }
+  .soc-icons {
+    display: none;
+  }
+
+@media only screen and (max-width: 500px) {
+  
+  .top-nav {
+    display: none;
+  }
+   .icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 5vh;
+    color: white;
+    width: 100%;
+    margin-top: 2rem;
+    }
+.soc-icons {
+  display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 5vh;
+    color: white;
+    width: 20vw;;
+    margin-top: 2rem;
+}
+}
